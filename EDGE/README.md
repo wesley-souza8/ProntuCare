@@ -1,4 +1,4 @@
-# GLOBAL SOLUTION - ESR1
+# GLOBAL SOLUTION - 1ESR
 
 ## Aluno
 
@@ -106,7 +106,7 @@ Para executar e implementar o projeto ProntuCare, siga os passos abaixo:
 - Abra o Node-RED Dashboard para visualizar os dados em tempo real.
 ## Vídeo Explicativo
 
-Para um guia visual e mais detalhes sobre o projeto, assista ao vídeo explicativo disponível no [YouTube](https://youtu.be/t9fzFjkYd9A).
+Para um guia visual e mais detalhes sobre o projeto, assista ao vídeo explicativo disponível no [YouTube](https://youtu.be/1bav5v6B6vk).
 
 
 ## Circuito
@@ -125,4 +125,4 @@ Para um guia visual e mais detalhes sobre o projeto, assista ao vídeo explicati
 ### *Observação*
 
 
-*Para mais informações, acesse nosso [github](https://github.com/wesley-souza8/EDGE-CP05.git)*
+*Para mais informações, acesse nosso [github](https://github.com/wesley-souza8/ProntuCare.git)*
