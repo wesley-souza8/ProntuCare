@@ -113,13 +113,13 @@ Para um guia visual e mais detalhes sobre o projeto, assista ao vídeo explicati
 <img src="./assets/img/Circuito.PNG">
 
 ## DashBoard
-<img src="./assets/img/Dashboard.PNG">
+<img src="./assets/img/Dashboard.png">
 
 ## MQTT
-<img src="./assets/img/MQTT.PNG">
+<img src="./assets/img/MQTT.png">
 
 ## NODE-RED
-<img src="./assets/img/NODE-RED.PNG">
+<img src="./assets/img/NODE-RED.png">
 
 
 ### *Observação*
