@@ -1,0 +1,14 @@
+{
+  "name": "gs-front",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "sass": "sass --watch ./src/assets/scss/global.scss ./src/assets/css/global.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

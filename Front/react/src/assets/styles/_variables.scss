@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #7D64E5;
+  --color-secondary: #27264F;
+  --color-white: #fff;
+
+  --font-family: "Roboto", sans-serif;
+}
+
+$color-primary: var(--color-primary);
+$color-secondary: var(--color-secondary);
+$color-white: var(--color-white);
+
+$font-family: var(--font-family);

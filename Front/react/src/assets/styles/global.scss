@@ -1,0 +1,69 @@
+@use 'sass:color';
+@use 'variables' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  margin-bottom: 4rem;
+  
+  &.content {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+button.btn {
+  min-height: 46px;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  background-color: v.$color-primary;
+  color: v.$color-white;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(#5BC9E8, 10%);
+
+    i {
+      transform: scale(1.2);
+      transition: all .3s ease-in-out;
+    }
+  }
+}

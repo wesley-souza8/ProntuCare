@@ -1,0 +1,76 @@
+@use '../../assets/styles/variables' as v;
+
+/* HEADER ------------------------------------------------- */
+
+header {
+  height: 146px;
+  color: v.$color-primary;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 100%;
+    height: 6rem;
+    padding: 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      font-size: 2rem;
+      font-weight: 900;
+      color: v.$color-primary;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      span {
+        color: v.$color-secondary;
+      }
+    }
+  }
+
+  nav {
+    gap: 1rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      color: v.$color-secondary;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+
+      li {
+        width: auto;
+      }
+
+      a {
+        color: v.$color-primary;
+        text-decoration: none;
+        padding: .5rem 1rem;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          background-color: v.$color-secondary;
+          color: v.$color-white;
+        }
+      }
+    }
+  }
+}

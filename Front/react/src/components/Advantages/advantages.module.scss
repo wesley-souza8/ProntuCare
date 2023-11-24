@@ -1,0 +1,68 @@
+@use '../../assets/styles/variables' as v;
+
+/* ADVANTAGES ---------------------------------------------- */
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+
+ .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+
+  @media (max-width:1024px) {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    height: 260px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    @media (max-width:490px) {
+      height: auto;
+      flex-direction: column;
+    }
+
+    img {
+      width: 160px;
+      height: 260px;
+      object-fit: cover;
+
+      @media (max-width:1024px) {
+        object-fit: contain;
+      }
+    }
+
+    .inner {
+      width: 100%;
+
+      h1 {
+        color: v.$color-secondary;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: v.$color-primary;
+      }
+
+      p {
+        font-size: .9rem;
+      }
+
+      @media (max-width:490px) {
+        text-align: center;
+      }
+    }
+  }
+ }
+}
