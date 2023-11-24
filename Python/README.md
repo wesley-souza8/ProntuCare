@@ -68,7 +68,8 @@ Somos a ProntuCare, uma inovação na interação entre pacientes, secretárias 
 - Mantenha suas credenciais seguras e não compartilhe com terceiros.
 
 ## Vídeo Explicativo
-[Insira o link para o vídeo explicativo aqui]
+Para um guia visual e mais detalhes sobre o projeto, assista ao vídeo explicativo disponível no [YouTube](https://youtu.be/jmv95r1AuL8).
+
 
 ## Repositório no GitHub
-[Insira o link para o repositório no GitHub aqui]
+*Para mais informações, acesse nosso [github](https://github.com/wesley-souza8/ProntuCare.git)*
